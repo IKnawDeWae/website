@@ -1,0 +1,98 @@
+
+body {
+  position: relative;
+  float: left;
+  height: 100vh;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  background: black;
+}
+
+
+.scroll {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  width: 100%;
+  min-height: 90%;
+  background: linear-gradient(199deg, #fcfcfc 0%, rgba(5, 5, 5, 0.72) 100%);
+  display: flex;
+  column-gap: 0px;
+  flex-direction: column;
+  overflow: scroll;
+  justify-content: flex-start;
+  flex-wrap: no-wrap;
+  
+}
+
+
+.smog {
+  flex-shrink: 0;
+  box-sizing: border-box;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: rgba(204, 204, 204, 0.5);
+  background-image: url(../assets/smog.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.smog airnow{
+  height: auto; width: auto;
+  font-size: 250px;
+  color:black;
+  position:absolute;
+  font: "inter";
+  font-style: bold;
+  transform: translateY(-105px); 
+
+}
+.smog slogan{
+  height: auto; width: auto;
+  font-size: 24px;
+  color:black;
+  position:absolute;
+  transform: translateX(-334px); 
+
+}
+
+
+.middle{
+  width: 100%;
+  height: 50%;
+  background-color: #ffffff;
+  overflow: visible;
+}
+.middle .text{
+  position: relative;
+  margin:0px;
+  width: 50%; /* 1067px */
+  height:40%; /* 171px */
+  overflow: visible;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 1.2;
+  word-wrap: break-word;
+  word-break: break-word;
+  padding:10px;
+  transform: translateX(-10px) translateY(20px);
+}
+.middle .text .par1{
+  color: #06aec1;
+}
+
+
+.bot {
+  width: 100%;
+  height: 50%;
+  background-color: #e6e6e6;
+  overflow: visible;
+}
